@@ -6,6 +6,7 @@ import streamlit as st
 st.header('Nadya Clariessa')
 st.header('220322609234')
 st.subheader('Plot')
+st.latex(r'''\int_a^b\alpha^{frac{1}{2}\omegax}frac{\partial^3x}
  
 x = np.linspace(-2 * np.pi, 2 * np.pi, 1000)  # Generating x values from -2*pi to 2*pi
 y = np.sin(x)  # Calculating sin(x) values
